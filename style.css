@@ -1,0 +1,247 @@
+body{
+  text-align: center;
+  margin: 0;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+hr{
+  border: dotted #a2f5e6 6px;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+h1{
+/*  width: 10%;
+*/  margin: 0 auto 0 auto;
+  font-size: 90px;
+  font-family: 'Hind', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+.top{
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  border-bottom: 100px;
+}
+.mount{
+  position: relative;
+  bottom: auto;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+.pic-image{
+  width: 20%
+}
+.end{
+  width: 30%;
+  margin: 40px auto 40px;
+}
+p{
+  line-height: 2;
+}
+
+.skill-imagea{
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+.skill-image{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.cloudb{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.clouda{
+  position: absolute;
+ right: 170px;
+ top: 50px;
+}
+.p1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  color: #66BFBF;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+.intro{
+  width: 20%;
+  margin: auto;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.btnnormal {
+  background: #34d9b8;
+  background-image: -webkit-linear-gradient(top, #34d9b8, #2bb89c);
+  background-image: -moz-linear-gradient(top, #34d9b8, #2bb89c);
+  background-image: -ms-linear-gradient(top, #34d9b8, #2bb89c);
+  background-image: -o-linear-gradient(top, #34d9b8, #2bb89c);
+  background-image: linear-gradient(to bottom, #34d9b8, #2bb89c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 27px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom:  300px;
+}
+
+.btnnormal:hover {
+  background: #3cfc7f;
+  background-image: -webkit-linear-gradient(top, #3cfc7f, #42d934);
+  background-image: -moz-linear-gradient(top, #3cfc7f, #42d934);
+  background-image: -ms-linear-gradient(top, #3cfc7f, #42d934);
+  background-image: -o-linear-gradient(top, #3cfc7f, #42d934);
+  background-image: linear-gradient(to bottom, #3cfc7f, #42d934);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.cpyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.end{
+}
+*{
+  font-family: "montserrat",sans-serif;
+}
+
+.container{
+  background: url("https://img.icons8.com/ios/50/000000/email-open.png") no-repeat center;
+  background-size: cover;
+  padding: 100px 40px;
+  text-align: center;
+  color: white;
+}
+.container p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: inline-flex; /*its better to use inline-flex*/
+}
+.email-box i{
+  background: #66BFBF;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn{
+  background: #66BFBF;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.utube{
+  padding-bottom: 30px;
+
+}
+??????
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  text-align: center;
+  margin-top: 360px;
+}
+.btnnormal{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btnnormal,.btn2{
+  color: #3498db;
+}
+.btn3,.btn4{
+  color: #fff;
+}
+.btnnormal:hover,.btn2:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover{
+  color: #3498db;
+}
+.btnnormal::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btnnormal::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
